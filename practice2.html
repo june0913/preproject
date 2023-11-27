@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #title{
+            width: 400px;
+            border-width: 1cm 3cm; 
+            border : solid yellow;
+        }
+        #menu{
+            width: 1800px;
+            height: 100px;
+            border-top: 0.1cm  solid red;
+            border-bottom: 0.1cm  solid red;
+            letter-spacing:3px;
+            margin: auto;
+            line-height: 50px;
+            font-size: 15px;
+            text-align: center;
+            
+        }
+        body{
+            width: 1800px;
+            margin : 10px auto;
+            border: 0.1cm solid purple;
+            overflow: scroll;
+            background-color: ivory;
+        }
+        #top { 
+            text-align: center;
+            background: rgb(79, 143, 143);
+            color: white;
+            padding: 10px;
+            font-size: large;
+        }
+        #button {
+            color : silver;
+            background-color: rgb(78, 77, 75);
+            float: left; 
+            width: 200px; height: 50px;
+            border : 1px solid black;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            font-weight: 1000;
+        }
+        #button:hover{
+            background: red;
+        }
+        #middle{
+            display: flex;
+            margin-top: 60px;
+            border: 0.1cm solid green;
+        }
+        #left{ 
+            float: left; 
+            width: 200px; height: 523px;
+            border: 0.1cm solid purple; 
+
+        }
+        #leftbox1{
+            width: 393px; height: 300px; 
+            border-bottom: 3px solid black;
+            padding: 10px;
+            margin-left: 5px;
+        }
+        #leftbox2{
+            width: 180px; height: 60px; 
+            border-bottom: 3px solid rgb(202, 200, 200);
+            font-size: 20px;
+            margin-left: 5px;
+            padding: 1px;
+            font-weight: bold;
+        }
+        #leftbox3{
+            width: 190px; height: 100px; 
+
+            line-height: 3mm;
+            margin-left: 5px;
+        }    
+        #leftbox4{
+            width: 194px; height: 125px; 
+            border: 3px solid rgb(88, 146, 136);
+            line-height: 3mm;
+        }  
+        #right{ 
+            float : right;
+            width: 400px; height: 523px;
+            overflow: flex;
+            margin-left: 50px;
+            border: 0.1cm solid pink;
+        }
+        #right-title{
+            border-bottom: 3px solid black;
+            padding: 5px 10px;
+            font-size: large;
+            margin: 10px;
+
+        }
+        #right-contents{
+            line-height: 100%;
+            position: relative;
+            width: 300px;
+            font-size: 15px;
+            margin: 20px;
+            border: 1px solid sandybrown;
+        }
+        #right-1{
+            float: left; 
+            position: relative;
+            width: 380px; height: 500px; 
+            padding: 5px;
+            
+        }
+        #right-2{
+            float: left;
+            position: relative;
+            width: 480px; height: 500px; 
+            padding: 5px;
+            border: 1px solid brown;
+        }
+        #rightbox1{
+            position: absolute;
+            left: 10px; top: 50px;
+            width: 170px; height: 200px;
+            font-size: 15px;
+            margin: 20px;
+        }
+        #rightbox2{
+            position: absolute;
+            right: 20px; top: 50px;
+            width: 170px; height: 100px;
+            font-size: 15px;
+            margin: 20px;
+        }
+        #rightbox3{
+            position: absolute;
+            right: 20px; top: 250px;
+            width: 170px; height: 100px;
+            font-size: 15px;
+            margin: 20px;
+        }
+        #rightbox4{
+            position: absolute;
+            left: 10px; top: 250px;
+            width: 170px; height: 100px;
+            font-size: 15px;
+            margin: 20px;
+        }
+        #center{
+            float: left;
+            width: 1500px; height: 523px;
+            margin-left: 50px;
+            border: 0.1cm solid hotpink;
+        }
+        #bottom{
+            height: 100px;
+            margin-top: 60px;
+            border: 0.1cm solid blue;
+            text-align: center;
+            font-size: xx-large;
+            font-weight: 1000;
+            color: aliceblue;
+            background-color: black;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id = "title">
+        <h1><img src="https://search.pstatic.net/common?type=f&size=518x522&quality=95&direct=true&src=http%3A%2F%2Fshop1.phinf.naver.net%2F20210110_66%2F1610289299559mqL6l_JPEG%2F46424908981168859_175273782.jpeg
+            "title="logo" width="100" height="100" />
+        What Shop Mall</h1>
+    </div>
+    <div id = "menu">
+        <h1>HOME &nbsp;&nbsp;&nbsp;&nbsp;
+            ABOUT US&nbsp;&nbsp;&nbsp;&nbsp; 
+            NEWS &nbsp;&nbsp;&nbsp;&nbsp;
+            MY ACCOUNT &nbsp;&nbsp;&nbsp;&nbsp;
+            CONTACTS&nbsp;&nbsp;&nbsp;&nbsp;
+        </h1>
+    </div>
+    <div id = "middle">
+        <div id = "left">
+            <div id = "top">카테고리</div>
+            <div id = "button">컴퓨터</div>
+            <div id = "button">의류</div>
+            <div id = "button">음악</div>
+            <div id = "button">영화</div>
+            <div id = "button">스포츠</div>
+            <div id = "button">레저</div>
+            <div id = "button">가구/인테리어</div>
+            <div id = "button">식품</div>
+        </div>
+        <div id = 'center'></div>
+        <div id = "right">   
+            <div id = "right-1">
+                <div id = 'right-title'>
+                    <b>Shoping Cart</b>
+                </div>
+                <div id = 'right-contents'>
+                    <h4>현재 쇼핑 카트에 물품이 없습니다.</h4>
+                </div>
+                <div id = 'right-title'>
+                    <b>Log In</b>
+                </div>
+                <div id = 'right-contents'>
+                    아이디<br>
+                    <input type="text" name="text" value=""><br><br>
+                    패스워드<br>
+                    <input type="password" name="password" placeholder=""><br>
+                    <br>
+                    <input type="button"  value="로그인">
+                    <input type="button"  value="초기화">
+                    <br><br>
+                    <a href="">회원가입</a> 
+                    <a href="">비밀번호 분실</a>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+</body>
+<div id="bottom">
+    Copyright & copy; 2023 Sebastian
+</div>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        body{
+            margin-left: 50px;
+            width: 1800px;
+            height: 400px;
+            margin : 10px auto;
+            overflow: scroll;
+            border-left: 3px solid black;
+            padding: 10px;
+        }
+        #box{
+            width: 1000px;
+            height: 30px;
+            padding: 10px;
+            line-height: 30px;
+            margin-left: 10px;
+            border-top: 3px solid rgb(128, 122, 122);
+            border-bottom: 3px solid rgb(128, 122, 122);
+            font-size: 20px;
+            font-weight: 1000;
+        }
+    </style>
+</head>
+<body>
+    <div id = 'body'>
+       <h4>계정 신규 및 동의</h4>
+       <h1>여기서 계정을 만듭니다.</h1>
+       <h3>아래 필수 항목을 입력하시오</h3>
+        <div id = 'box'>
+            Email 주소
+            <input type="text" name="text" value="" placeholder="Enter Email">
+            Password
+            <input type="password" name="password" placeholder="Password 입력">
+            Confirm Password
+            <input type="password" name="password" placeholder="Password 확인">
+        </div>
+        <h3>계정을 만드는데 당사의 모든 규정을 따르시겠습니다 <a href="">당사 제 규정.</a></h3>
+        <input type="button" value="등록" ><br><br>
+        이미 계정이 있습니까? <a href="">동의.</a>
+    </div>
+</body>
+</html>
